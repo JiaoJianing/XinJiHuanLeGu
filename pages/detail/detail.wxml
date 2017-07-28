@@ -1,0 +1,16 @@
+<scroll-view scroll-y="true">
+  <block wx:for="{{rooms}}">
+    <view class="flex item">
+      <view class="item_left">
+        <image src="{{item.image}}" class="image"/>
+      </view>
+      <view class="flex_auto item_middle">
+        <view><text class="title">{{item.title}}</text></view>
+        <view><text class="sub_title">{{item.subTitle}}</text></view>
+      </view>
+      <view class="item_right">
+        <view><text class="action">{{item.action}}</text></view>
+      </view>
+    </view>
+  </block>
+</scroll-view>

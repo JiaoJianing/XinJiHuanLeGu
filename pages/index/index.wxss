@@ -1,0 +1,38 @@
+/**index.wxss**/
+page{
+  height: 100%;
+}
+.relative{
+  height: 100%;
+  width:100%;
+  position:relative;
+}
+.pic_background{
+  height: 100%;
+  width:100%;
+  position:absolute;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.select {
+    width: 80%;
+    height: 72rpx;
+    font-size: 28rpx;
+    background: transparent;
+    border: 2rpx solid #fff;
+    color: #fff;
+}
+
+.datetime{
+  margin-bottom: 10rpx;
+  color: darkorange;
+}

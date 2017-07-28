@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="relative">
+  <image class="pic_background" src="../../images/background-image.jpg"></image>
+  <view class="section">
+    <view>选择日期</view>
+    <picker mode="date" value="{{date}}" start="2017-01-01" end="2099-12-31" bindchange="bindDateChange">
+      <view class="datetime">{{date}}</view>
+    </picker>
+    <button class="select" bindtap="select">查询</button>
+  </view>
+</view>
